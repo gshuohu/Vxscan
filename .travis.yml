@@ -4,7 +4,7 @@ script: true
 matrix:
   include:
     - name: "Python 3.6 on Linux"
-      python: 3.6           # this works for Linux but is ignored on macOS or Windows
+      python: 3.7           # this works for Linux but is ignored on macOS or Windows
     - name: "Python 3.7 on Xenial Linux"
       python: 3.7           # this works for Linux but is ignored on macOS or Windows
       dist: xenial          # required for Python >= 3.7
